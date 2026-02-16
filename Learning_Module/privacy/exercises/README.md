@@ -475,9 +475,9 @@ exercise8();
 
 ### Documentation
 
-- [ZK Compression Docs](https://www.zkcompression.com/) - Official documentation
-- [Light Protocol GitHub](https://github.com/Lightprotocol/light-protocol) - Source code
-- [Program Examples](https://github.com/Lightprotocol/program-examples) - Reference implementations
+- [ZK Compression Docs](https://www.zkcompression.com/) - Official documentation for ZK compression on Solana
+- [Light Protocol GitHub](https://github.com/Lightprotocol/light-protocol) - Source code and implementation details
+- [Program Examples](https://github.com/Lightprotocol/program-examples) - Reference implementations and code examples
 
 ### Example Projects
 

@@ -1,0 +1,19 @@
+{
+  "name": "rust-basics-validation",
+  "version": "1.0.0",
+  "description": "Validation scripts for Rust Basics Learning Module",
+  "type": "module",
+  "scripts": {
+    "validate:structure": "node structure-validation.js",
+    "validate:content": "node content-validation.js",
+    "validate:exercises": "node exercise-validation.js",
+    "validate:navigation": "node navigation-validation.js",
+    "validate:links": "node navigation-validation.js",
+    "validate:all": "node structure-validation.js && node content-validation.js && node exercise-validation.js && node navigation-validation.js",
+    "test": "npm run validate:all"
+  },
+  "dependencies": {
+    "fast-check": "^3.15.0"
+  },
+  "devDependencies": {}
+}

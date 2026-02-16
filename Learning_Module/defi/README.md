@@ -79,6 +79,20 @@ Study production-grade risk management systems. Learn how to prevent insolvency,
 - Insurance funds
 - Conservation properties
 
+### [05. Percolator CLI Tools](05-percolator-cli-tools/README.md)
+**Difficulty:** Intermediate  
+**Estimated Time:** 2-3 hours
+
+Master the percolator-cli command-line tools for interacting with perpetual futures markets. Learn installation, configuration, and practical usage for DeFi development.
+
+**Key Concepts:**
+- CLI installation and configuration
+- User account management
+- Trade execution and order routing
+- Keeper operations and market maintenance
+- Custom matcher programs
+- Market monitoring and analysis
+
 ## Hands-On Exercises
 
 Practice your skills with [DeFi exercises](exercises/README.md) that cover:
@@ -105,8 +119,9 @@ This section draws heavily from production systems:
 2. Progress to **AMM Basics** to learn market-making fundamentals
 3. Advance to **Perpetual Futures** for leverage trading concepts
 4. Master **Risk Engines** for production-grade safety mechanisms
+5. Practice with **Percolator CLI Tools** for hands-on experience
 
-**Time Commitment:** 13-19 hours total
+**Time Commitment:** 15-22 hours total
 
 ## Cross-Topic Integration
 
@@ -138,3 +153,25 @@ Content in this section is curated from:
 - [percolator-cli](https://github.com/aeyakovenko/percolator-cli) - CLI tools and examples
 - [percolator-match](https://github.com/aeyakovenko/percolator-match) - Passive LP matcher implementation
 - Solana Program Library (SPL) - Token program documentation
+
+## Cross-References and Related Topics
+
+### Prerequisites
+- **Basics**: Master [Tokens](../basics/03-tokens/README.md) and [PDAs](../basics/04-pdas/README.md) before starting
+- **Setup**: Configure [Rust and Anchor](../setup/rust-anchor.md) for program development
+
+### Related Topics
+- **Basics**: Build on [Token Operations](../basics/03-tokens/README.md) for DeFi protocols
+- **Security**: Apply [Safe Math](../security/02-safe-math/README.md) and [Fuzzing](../security/03-fuzzing-with-trident/README.md) to DeFi
+- **Privacy**: Combine with [Confidential Transfers](../privacy/04-confidential-transfers/README.md) for private DeFi
+
+### Advanced Alternatives
+- **Risk Management**: Study production [Risk Engines](04-risk-engines/README.md) with formal verification
+- **Post-Quantum**: Future-proof with [Post-Quantum Cryptography](../security/05-post-quantum-crypto/README.md)
+
+### Integration Examples
+- **Secure DeFi Protocol**: Complete project at [Secure DeFi Protocol](../integration/secure-defi-protocol/README.md)
+- **Full-Stack dApp**: DeFi integration in [Full-Stack dApp](../integration/full-stack-dapp/README.md)
+
+### Learning Paths
+- Follow the [DeFi Developer Learning Path](../curriculum/learning-paths/defi-developer.md) for comprehensive training

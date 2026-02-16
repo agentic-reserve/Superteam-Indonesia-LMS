@@ -173,3 +173,25 @@ Privacy features on Solana power:
 - [solana-privacy/light-protocol](https://github.com/Lightprotocol/light-protocol) - Core protocol implementation
 - [solana-privacy/examples-zk-compression](https://github.com/Lightprotocol/examples-zk-compression) - Example implementations
 - [solana-privacy/cp-swap-reference](https://github.com/Lightprotocol/cp-swap-reference) - Rent-free AMM example
+
+## Cross-References and Related Topics
+
+### Prerequisites
+- **Basics**: Master [Tokens](../basics/03-tokens/README.md) and [PDAs](../basics/04-pdas/README.md) before starting
+- **Setup**: Configure [Rust and Anchor](../setup/rust-anchor.md) for program development
+
+### Related Topics
+- **Basics**: Build on [Token Operations](../basics/03-tokens/README.md) for compressed tokens
+- **DeFi**: Apply privacy to [DeFi Protocols](../defi/README.md) for confidential trading
+- **Security**: Combine with [Security Best Practices](../security/README.md) for secure privacy implementations
+
+### Advanced Alternatives
+- **Light Protocol**: Production-ready privacy with [Light Protocol](03-light-protocol/README.md)
+- **Post-Quantum**: Future-proof privacy with [Post-Quantum Cryptography](../security/05-post-quantum-crypto/README.md)
+
+### Integration Examples
+- **Secure DeFi Protocol**: Privacy integration in [Secure DeFi Protocol](../integration/secure-defi-protocol/README.md)
+- **Full-Stack dApp**: Confidential features in [Full-Stack dApp](../integration/full-stack-dapp/README.md)
+
+### Learning Paths
+- Follow the [Privacy Developer Learning Path](../curriculum/learning-paths/privacy-developer.md) for comprehensive training
