@@ -10,22 +10,25 @@ build/
 *.wasm
 
 # IDE
-.Kiro/
+.kiro/
 .vscode/
 .idea/
-.solana-mobile/
-.solana-post-quantum/
-.solana-audit-tools/
-.solana-privacy/
-.solana-vanity-address/
-.solana-depin-examples/
-.solana-agent-kit/
-.solama-aml-compliance/
-.percolator/
-.solana-llms-resources/
 *.swp
 *.swo
 *~
+
+# Project folders to exclude
+percolator/
+solana-agent-kit/
+solana-aml-complaince/
+solana-audit-tools/
+solana-depin-examples/
+solana-example-program/
+solana-llms-resources/
+solana-mobile/
+solana-post-quantum/
+solana-privacy/
+solana-vanity-address/
 
 # OS
 .DS_Store
