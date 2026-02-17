@@ -718,6 +718,31 @@ Orca's concentrated liquidity AMM features:
 - Range orders
 - Capital efficiency
 
+### Meteora DLMM ⭐ NEW
+
+Meteora's Dynamic Liquidity Market Maker represents the next evolution of AMMs on Solana:
+
+**Key Features**:
+- **Bin-Based Liquidity**: Discrete price points for precise control
+- **Dynamic Fees**: Fees adjust based on market volatility
+- **Multiple Strategies**: Uniform, spot-concentrated, and curve distributions
+- **Capital Efficiency**: 80-90% utilization vs 10-20% in basic AMMs
+
+**Why Learn Meteora**:
+- Production protocol with significant TVL
+- Advanced AMM concepts beyond basic x*y=k
+- Comprehensive SDK and API support
+- Real-world integration examples
+
+**Deep Dive**: See [Meteora DLMM Guide](meteora-dlmm.md) for:
+- Detailed DLMM concepts
+- TypeScript SDK integration
+- API usage examples
+- Liquidity strategies
+- Best practices
+
+**Practice**: Complete [Meteora Integration Exercises](../exercises/meteora-integration.md)
+
 ## Exercises
 
 1. Implement a simple constant product AMM
@@ -725,6 +750,7 @@ Orca's concentrated liquidity AMM features:
 3. Create a stable swap curve implementation
 4. Build a multi-asset pool
 5. Implement fee collection and distribution
+6. **Integrate Meteora DLMM** ⭐ NEW - See [exercises](../exercises/meteora-integration.md)
 
 ## Source Attribution
 

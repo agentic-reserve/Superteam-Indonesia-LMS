@@ -97,7 +97,19 @@ Comprehensive reference for Solana's JSON-RPC API for querying blockchain data a
 - Error handling and rate limiting
 - WebSocket subscriptions for real-time updates
 
-### 7. [Exercises](./exercises/README.md)
+### 7. [Wallet Utilities](./07-wallet-utilities/README.md)
+**Estimated Time:** 6-8 hours
+
+Master essential wallet operations including keypair management, mnemonics, message signing, and React wallet integration.
+
+**Topics covered:**
+- Keypair generation and restoration (bytes, base58)
+- Mnemonic phrases (BIP39/BIP44 HD wallets)
+- Message signing and verification
+- Vanity address generation
+- React wallet adapter integration
+
+### 8. [Exercises](./exercises/README.md)
 **Estimated Time:** 4-6 hours
 
 Apply what you've learned through practical coding exercises with validation criteria and solution references.
@@ -107,7 +119,7 @@ Apply what you've learned through practical coding exercises with validation cri
 We recommend following the sections in order, as each builds on concepts from previous sections:
 
 ```
-Setup → Accounts & Programs → Transactions → Tokens → PDAs → Anchor Framework → RPC API → Exercises
+Setup → Accounts & Programs → Transactions → Tokens → PDAs → Anchor Framework → RPC API → Wallet Utilities → Exercises
 ```
 
 However, if you're already familiar with certain concepts, feel free to skip ahead or use this as a reference.
@@ -144,15 +156,17 @@ If you get stuck:
 
 After completing this module, you can:
 
-- Explore [Security](../security/README.md) best practices
-- Learn about [Mobile Development](../mobile/README.md) on Solana
-- Dive into [DeFi](../defi/README.md) protocols
-- Build [AI Agents](../ai-agents/README.md) on Solana
+- Explore [Advanced Topics](../advanced/README.md) for Ephemeral Rollups and Session Keys
+- Learn [Security](../security/README.md) best practices
+- Dive into [Mobile Development](../mobile/README.md) on Solana
+- Build [DeFi](../defi/README.md) protocols
+- Create [AI Agents](../ai-agents/README.md) on Solana
 - Explore [DePIN](../depin/README.md) and IoT integration
 - Study [Privacy](../privacy/README.md) and zero-knowledge techniques
 
 ## Additional Resources
 
+- [Solana Core Reference Guide](./solana-core-reference.md) - Quick reference to concise Solana core documentation (LLM-optimized)
 - [Solana Cookbook](https://solanacookbook.com/) - Practical code examples and recipes for common Solana development patterns
 - [Solana Documentation](https://docs.solana.com/) - Official comprehensive documentation covering all Solana concepts and APIs
 - [Anchor Framework Documentation](https://www.anchor-lang.com/) - Complete guide to building Solana programs with the Anchor framework

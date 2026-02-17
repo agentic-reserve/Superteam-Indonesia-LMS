@@ -179,11 +179,14 @@ This module serves as a prerequisite for:
 
 ### Official Rust Documentation
 
+**⭐ NEW: [Rust Resources Guide](rust-resources.md)** - Comprehensive guide to official Rust documentation with Solana-specific recommendations!
+
 - **[The Rust Programming Language Book](https://doc.rust-lang.org/book/)** - Comprehensive Rust guide (highly recommended)
 - **[Rust By Example](https://doc.rust-lang.org/rust-by-example/)** - Learn Rust through annotated examples
 - **[Rust Standard Library Documentation](https://doc.rust-lang.org/std/)** - Reference for standard library types and functions
 - **[Rust Playground](https://play.rust-lang.org/)** - Experiment with Rust code in your browser
-- **[Comprehensive Rust Reference](../../solana-llms-resources/rust-full-llms.txt)** - Extensive Rust documentation and examples compiled for learning
+- **[The Cargo Book](https://doc.rust-lang.org/cargo/)** - Build tool and package manager guide
+- **[The Rustonomicon](https://doc.rust-lang.org/nomicon/)** - Guide to unsafe Rust (useful for Solana)
 
 ### Interactive Learning
 

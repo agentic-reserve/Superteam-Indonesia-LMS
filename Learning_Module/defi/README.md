@@ -93,6 +93,26 @@ Master the percolator-cli command-line tools for interacting with perpetual futu
 - Custom matcher programs
 - Market monitoring and analysis
 
+### [06. Lending Protocols](06-lending-protocols/README.md)
+**Difficulty:** Intermediate to Advanced  
+**Estimated Time:** 10-14 hours
+
+Learn about decentralized lending and borrowing with Kamino Finance, the largest lending protocol on Solana. Master overcollateralized lending, leveraged yield strategies, and comprehensive risk management.
+
+**Key Concepts:**
+- Kamino Lend (K-Lend) - Core lending/borrowing
+- Elevation Mode (eMode) - High leverage for correlated assets
+- Multiply Vaults - One-click leveraged yield strategies
+- kTokens - CLMM LP positions as collateral
+- Risk Management - Oracle systems and liquidations
+- Liquidity Vaults - Automated CLMM strategies
+
+**Topics Covered:**
+- [Kamino Lend](06-lending-protocols/kamino-lend.md) - Lending protocol features
+- [Multiply Vaults](06-lending-protocols/multiply-vaults.md) - Leveraged yield
+- [Risk Management](06-lending-protocols/risk-management.md) - Comprehensive risk framework
+- [Liquidity Vaults](06-lending-protocols/liquidity-vaults.md) - Automated liquidity
+
 ## Hands-On Exercises
 
 Practice your skills with [DeFi exercises](exercises/README.md) that cover:
@@ -101,12 +121,16 @@ Practice your skills with [DeFi exercises](exercises/README.md) that cover:
 - Implementing an AMM liquidity pool
 - Creating a margin trading system
 - Designing risk management logic
+- [Kamino Lending Integration](exercises/kamino-lending.md) - Build a lending dashboard
+- [Multiply Strategy Calculator](exercises/multiply-strategy.md) - Evaluate leveraged strategies
 
 ## Real-World Applications
 
 This section draws heavily from production systems:
 
 - **Percolator**: A perpetual futures risk engine with formal verification
+- **Meteora**: Advanced DLMM protocol for concentrated liquidity
+- **Kamino Finance**: Largest lending protocol on Solana with innovative features
 - **Serum**: Decentralized order book exchange
 - **Raydium**: Automated market maker and liquidity provider
 - **Mango Markets**: Decentralized trading platform with cross-margin
@@ -116,8 +140,9 @@ This section draws heavily from production systems:
 **Recommended Sequence:**
 
 1. Start with **Token Economics** to understand the building blocks
-2. Progress to **AMM Basics** to learn market-making fundamentals
-3. Advance to **Perpetual Futures** for leverage trading concepts
+2. Progress to **AMM Basics** (+ Meteora) to learn market-making fundamentals
+3. Learn **Lending Protocols** (Kamino) for borrowing and leveraged strategies
+4. Advance to **Perpetual Futures** for leverage trading concepts
 4. Master **Risk Engines** for production-grade safety mechanisms
 5. Practice with **Percolator CLI Tools** for hands-on experience
 
@@ -141,9 +166,10 @@ DeFi concepts integrate with other areas:
 
 After completing this section:
 
+- Explore [Advanced Topics](../advanced/README.md) for high-frequency trading with Ephemeral Rollups
 - Build an integration project combining DeFi with other topics
-- Explore [Privacy](../privacy/README.md) for confidential DeFi transactions
-- Study [Security](../security/README.md) for audit techniques specific to DeFi
+- Study [Privacy](../privacy/README.md) for confidential DeFi transactions
+- Review [Security](../security/README.md) for audit techniques specific to DeFi
 
 ---
 

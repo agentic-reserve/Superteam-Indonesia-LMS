@@ -83,10 +83,10 @@ Learn to use the Trident framework for property-based testing and fuzzing of Sol
 Build proof-of-concept exploits and security research tools for vulnerability analysis.
 
 **Key Concepts:**
-- CTF challenge design
 - Exploit development
 - Security research methodology
 - Responsible disclosure
+- Testing frameworks
 
 **Prerequisites:** Common vulnerabilities, Solana program development
 
@@ -98,6 +98,34 @@ Build proof-of-concept exploits and security research tools for vulnerability an
 Understand quantum computing threats to blockchain security and implement quantum-resistant cryptographic schemes.
 
 **Key Concepts:**
+- Quantum computing threats
+- Post-quantum algorithms
+- Lattice-based cryptography
+- Hash-based signatures
+- Migration strategies
+
+**Prerequisites:** Cryptography basics, security fundamentals
+
+**Estimated Time:** 4-5 hours
+
+[Go to Post-Quantum Cryptography →](05-post-quantum-crypto/)
+
+### 06. CTF Framework
+Learn to create, host, and solve Capture The Flag challenges for Solana security education and competitions.
+
+**Key Concepts:**
+- CTF challenge design
+- Challenge server setup
+- Exploit development
+- Vulnerability exploitation
+- Competition hosting
+- Educational security exercises
+
+**Prerequisites:** Common vulnerabilities, Solana program development
+
+**Estimated Time:** 5-6 hours
+
+[Go to CTF Framework →](06-ctf-framework/)
 - Quantum computing threat model
 - Hash-based signatures (WOTS+)
 - Winternitz one-time signatures
@@ -144,6 +172,7 @@ These examples demonstrate security practices used in production systems handlin
 - [Anchor Security Guidelines](https://www.anchor-lang.com/docs/security) - Security features and best practices when using the Anchor framework
 - [Neodyme Security Blog](https://blog.neodyme.io/) - In-depth articles on Solana security research and audit findings
 - [Open Quantum Safe Project](https://openquantumsafe.org/) - Open-source project for post-quantum cryptography implementations
+- [Private Ephemeral Rollups](../advanced/04-private-rollups/README.md) - Privacy-preserving execution with Trusted Execution Environments
 
 ## Source Attribution
 
